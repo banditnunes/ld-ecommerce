@@ -1,0 +1,22 @@
+{
+  "name": "ld-bower",
+  "description": "LD acessorios",
+  "main": "app.js",
+  "authors": [
+    "Anderson Nunes"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/banditnunes/ld-ecommerce",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
