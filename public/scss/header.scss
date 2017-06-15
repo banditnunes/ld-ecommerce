@@ -32,4 +32,64 @@
  	padding-left :11rem;
  	width:10%
  }
+ .carousel {
+		position: absolute;
+		top: 36rem;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		min-height: 70%;
+		.carousel-inner {
+			height: 100%;
+			min-height: 100%;
+			.item {
+				height: 100%;
+				min-height: 100%;
+			}
+			.fill {
+				height: 100%;
+				min-height: 100%;				
+				background-size: cover;
+				background-position: center;
+			}
+
+			.carousel-caption {
+				bottom: 25%;
+				left: 15%;
+				right: 15%;
+				h2 {
+					color: rgb(111, 111, 111);
+					font-weight: bold;
+				}
+				p {
+					color: rgb(47, 47, 47);
+					font-size: 1.5em;
+					padding: 1em 0;
+				}
+			}
+		}
+		.carousel-control {
+			&.left {
+				background: none;
+				i {
+					position: absolute;
+					top: 50%;
+					z-index: 5;
+					display: inline-block;
+					font-size: 4em;
+				}
+			}
+			&.right {
+				background: none;
+				i {
+					position: absolute;
+					top: 50%;
+					z-index: 5;
+					display: inline-block;
+					font-size: 4em;
+				}
+			}
+		}
+	}
 }
