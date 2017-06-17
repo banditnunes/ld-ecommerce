@@ -1,0 +1,78 @@
+#produtos {
+    position: relative;
+    padding: 0em 0;
+    top: 0;
+    left: 11rem;
+    width: 113rem;
+    display:block;
+	.fullscreen{
+		width: 100%;
+		height: 40rem;
+		overflow: hidden;
+	}
+	.imgAjuste{
+		width:100%;
+
+	}
+	.carousel {
+		position: relative;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 43rem;
+    	min-height: 100%;
+		.carousel-inner {
+			height: 100%;
+			min-height: 100%;
+			.item {
+				height: 100%;
+				min-height: 100%;
+			}
+			.fill {
+				height: 100%;
+				min-height: 100%;				
+				background-size: cover;
+				background-position: center;
+			}
+
+			.carousel-caption {
+				bottom: 25%;
+				left: 15%;
+				right: 15%;
+				h2 {
+					color: rgb(111, 111, 111);
+					font-weight: bold;
+				}
+				p {
+					color: rgb(47, 47, 47);
+					font-size: 1.5em;
+					padding: 1em 0;
+				}
+			}
+		}
+		.carousel-control {
+			&.left {
+				background: none;
+				i {
+					position: absolute;
+					top: 50%;
+					z-index: 5;
+					display: inline-block;
+					font-size: 4em;
+				}
+			}
+			&.right {
+				background: none;
+				i {
+					position: absolute;
+					top: 50%;
+					z-index: 5;
+					display: inline-block;
+					font-size: 4em;
+				}
+			}
+		}
+	}
+}
+
